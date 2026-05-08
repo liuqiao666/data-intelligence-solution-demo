@@ -117,6 +117,54 @@
 
 ---
 
+## 安装方式
+
+### 方式一：安装到全局技能目录（推荐）
+
+适合希望在任意项目里直接调用这个技能。
+
+```bash
+mkdir -p ~/.codex/skills/data-intelligence-solution-demo && cp -R "/Users/liuqiao/Desktop/数据智能解决方案快速构建 Skill/data-intelligence-solution-demo/"* ~/.codex/skills/data-intelligence-solution-demo/
+```
+
+安装完成后，可检查是否成功：
+
+```bash
+find ~/.codex/skills/data-intelligence-solution-demo -maxdepth 3 -type f | sort
+```
+
+### 方式二：从 GitHub 克隆后安装
+
+如果你要从仓库安装，执行：
+
+```bash
+git clone git@github.com:liuqiao666/data-intelligence-solution-demo.git && mkdir -p ~/.codex/skills/data-intelligence-solution-demo && cp -R data-intelligence-solution-demo/* ~/.codex/skills/data-intelligence-solution-demo/
+```
+
+如果你使用 HTTPS：
+
+```bash
+git clone https://github.com/liuqiao666/data-intelligence-solution-demo.git && mkdir -p ~/.codex/skills/data-intelligence-solution-demo && cp -R data-intelligence-solution-demo/* ~/.codex/skills/data-intelligence-solution-demo/
+```
+
+### 方式三：仅在当前目录使用
+
+如果你只是本地维护这个技能，不拷贝也可以，直接在当前目录编辑和管理：
+
+```bash
+cd "/Users/liuqiao/Desktop/数据智能解决方案快速构建 Skill/data-intelligence-solution-demo"
+```
+
+### 使用示例
+
+安装到全局后，可以这样描述需求来调用这个技能：
+
+```text
+根据这个 JD，帮我生成一套完整的数据智能解决方案演示项目
+```
+
+---
+
 ## 仓库结构
 
 ```text
