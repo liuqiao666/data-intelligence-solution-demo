@@ -25,21 +25,9 @@
 
 ## Installation
 
-### Option 1: Install to the global skill directory (recommended)
+The instructions below are for external users who want to install this skill into their local global skill directory.
 
-Use this if you want to access the skill from any project.
-
-```bash
-mkdir -p ~/.codex/skills/data-intelligence-solution-demo && cp -R "/Users/liuqiao/Desktop/数据智能解决方案快速构建 Skill/data-intelligence-solution-demo/"* ~/.codex/skills/data-intelligence-solution-demo/
-```
-
-To verify the installation:
-
-```bash
-find ~/.codex/skills/data-intelligence-solution-demo -maxdepth 3 -type f | sort
-```
-
-### Option 2: Clone from GitHub and install
+### Option 1: Install from GitHub (recommended)
 
 Using SSH:
 
@@ -53,17 +41,23 @@ Using HTTPS:
 git clone https://github.com/liuqiao666/data-intelligence-solution-demo.git && mkdir -p ~/.codex/skills/data-intelligence-solution-demo && cp -R data-intelligence-solution-demo/* ~/.codex/skills/data-intelligence-solution-demo/
 ```
 
-### Option 3: Use it directly in the current directory
+### Option 2: Download ZIP and install
 
-If you only want to maintain or edit the skill locally, just open the current folder:
+If you downloaded the repository as a ZIP file from GitHub and extracted it into a folder such as `data-intelligence-solution-demo-main`, run:
 
 ```bash
-cd "/Users/liuqiao/Desktop/数据智能解决方案快速构建 Skill/data-intelligence-solution-demo"
+mkdir -p ~/.codex/skills/data-intelligence-solution-demo && cp -R data-intelligence-solution-demo-main/* ~/.codex/skills/data-intelligence-solution-demo/
+```
+
+### Verify the installation
+
+```bash
+find ~/.codex/skills/data-intelligence-solution-demo -maxdepth 3 -type f | sort
 ```
 
 ### Usage example
 
-After installing it globally, you can invoke it with a request like:
+After installation, you can invoke the skill with a request like:
 
 ```text
 Turn this JD into a complete data intelligence solution demo project.
