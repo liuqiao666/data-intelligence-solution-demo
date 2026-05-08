@@ -1,0 +1,6 @@
+interface:
+  display_name: "数据智能方案演示生成器"
+  short_description: "从JD或业务描述生成完整数据智能演示项目"
+  default_prompt: "Use $data-intelligence-solution-demo to turn this JD or business brief into a complete data intelligence solution demo project."
+policy:
+  allow_implicit_invocation: true
