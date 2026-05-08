@@ -1,29 +1,28 @@
 # data-intelligence-solution-demo
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Codex-Skill-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Data%20Intelligence-Demo%20Generator-2563eb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Use%20Case-Interview%20%7C%20Pre--sales%20%7C%20Presentation-0f766e?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Output-Project%20Blueprint%20%7C%20Metrics%20%7C%20Modules-f59e0b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/技能类型-数据智能方案生成器-2563eb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/适用场景-面试%20%7C%20售前%20%7C%20汇报-0f766e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/输出内容-项目蓝图%20%7C%20指标体系%20%7C%20功能模块-f59e0b?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <strong>Turn a JD or business brief into a complete data intelligence solution demo project.</strong>
+  <strong>根据 JD 或业务需求，快速生成一套完整的数据智能解决方案演示项目。</strong>
 </p>
 
 <p align="center">
-  一个面向数据产品、售前方案、面试展示与业务汇报场景的 Codex Skill。<br />
+  一个面向数据产品、售前方案、面试展示与业务汇报场景的智能体技能。<br />
   它可以把一段 JD、业务需求或招标描述，快速转成一套结构完整、逻辑清晰、适合演示的数据智能解决方案 Demo。
 </p>
 
 <p align="center">
   <a href="./README.en.md">English README</a> ·
-  <a href="./SKILL.md">Skill Spec</a>
+  <a href="./SKILL.md">技能说明</a>
 </p>
 
 ---
 
-## Why this project
+## 为什么做这个项目
 
 很多真实业务场景里，输入往往只有一段很短的描述，但输出却要求足够完整：
 
@@ -37,9 +36,9 @@
 
 ---
 
-## What you can get
+## 你可以得到什么
 
-使用这个 Skill，你可以快速生成：
+使用这个技能，你可以快速生成：
 
 - JD / 业务需求能力解构
 - 行业化指标体系设计
@@ -51,12 +50,12 @@
 
 ---
 
-## Feature preview
+## 功能预览
 
-### 1. Requirement Decomposition
+### 1. 需求解构
 自动识别行业、平台类型、业务目标、关键指标与核心能力诉求。
 
-### 2. Capability Mapping
+### 2. 能力映射
 把需求关键词映射为数据智能模块，例如：
 
 - `MetricSystem`：指标管理
@@ -67,7 +66,7 @@
 - `Dashboard`：经营概览
 - `RiskControl`：风控分析
 
-### 3. Industry Metric Design
+### 3. 行业指标设计
 内置多行业指标盘设计参考，支持快速生成业务指标体系。
 
 覆盖场景包括：
@@ -80,7 +79,7 @@
 - 内容 / 社区平台
 - 广告 / 商业化平台
 
-### 4. Demo Blueprint Output
+### 4. 演示项目蓝图输出
 输出适合直接做 Demo 的项目蓝图，包括：
 
 - 页面模块建议
@@ -91,13 +90,13 @@
 
 ---
 
-## Quick example
+## 快速示例
 
 输入一段 JD 或业务描述，例如：
 
 > 需要搭建一个面向企业客户的商旅数据平台 Demo，重点展示经营分析、指标体系、客户分层、供应链覆盖与 AI 智能问数能力。
 
-这个 Skill 可以进一步组织出：
+这个技能可以进一步组织出：
 
 - 行业判断：B2B 商旅 / 企业服务
 - 北极星指标：GMV、订单量、客单价、企业客户数、供应商覆盖率
@@ -107,7 +106,7 @@
 
 ---
 
-## Best for
+## 适合谁用
 
 - 数据产品经理
 - 数据分析师
@@ -118,7 +117,7 @@
 
 ---
 
-## Repository structure
+## 仓库结构
 
 ```text
 .
@@ -134,15 +133,15 @@
 
 ---
 
-## File guide
+## 文件说明
 
-- `SKILL.md`：Skill 主体说明与执行流程
-- `agents/openai.yaml`：Skill 展示配置
+- `SKILL.md`：技能主体说明与执行流程
+- `agents/openai.yaml`：技能展示配置
 - `references/industry-metrics.md`：行业指标库
 - `references/demo-blueprint.md`：演示项目蓝图、页面结构、Mock 数据字段与 README 建议
 
 ---
 
-## Core idea
+## 核心理念
 
 它不是只生成一份“方案文档”，而是帮助你生成一套“能讲、能演示、能继续开发”的数据智能项目骨架。
